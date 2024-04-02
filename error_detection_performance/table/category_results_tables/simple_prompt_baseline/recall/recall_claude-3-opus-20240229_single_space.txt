@@ -1,0 +1,7 @@
+
+ gpt-4-0613 & math_word_problem_generation & 40.7 & 36.9 & -- & -- \\
+ gpt-4-0613 & finegrained_fact_verification & 55.6 & 34.4 & 31.0 & -- \\
+ gpt-4-0613 & answerability_classification & 31.5 & -- & -- & 21.9 \\
+ Llama-2-70b-chat-hf & math_word_problem_generation & 74.4 & 76.4 & -- & -- \\
+ Llama-2-70b-chat-hf & finegrained_fact_verification & 35.2 & 34.5 & 30.5 & -- \\
+ Llama-2-70b-chat-hf & answerability_classification & 15.9 & -- & -- & 10.7 \\

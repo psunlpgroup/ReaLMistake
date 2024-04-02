@@ -1,0 +1,182 @@
+{
+    "math_word_problem_generation": {
+        "initial_model=gpt-4-0613": {
+            "baseline_model=always_error": {
+                "total_num": 140,
+                "prediction_error_num": 140,
+                "gold_error_num": 87,
+                "metrics": {
+                    "accuracy": 0.6214285714285714,
+                    "precision": 0.6214285714285714,
+                    "recall": 1.0,
+                    "f1": 0.7665198237885462,
+                    "true_negative_rate": 0.0,
+                    "false_positive_rate": 0.37857142857142856,
+                    "false_negative_rate": 0.0,
+                    "true_positive_rate": 0.6214285714285714
+                }
+            },
+            "baseline_model=random": {
+                "metrics": {
+                    "accuracy": 0.5294897959183673,
+                    "precision": 0.6214285714285714,
+                    "recall": 0.6214285714285714,
+                    "f1": 0.6214285714285714,
+                    "true_negative_rate": 0.14331632653061224,
+                    "false_positive_rate": 0.23525510204081632,
+                    "false_negative_rate": 0.23525510204081632,
+                    "true_positive_rate": 0.3861734693877551
+                }
+            }
+        },
+        "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+            "baseline_model=always_error": {
+                "total_num": 160,
+                "prediction_error_num": 160,
+                "gold_error_num": 128,
+                "metrics": {
+                    "accuracy": 0.8,
+                    "precision": 0.8,
+                    "recall": 1.0,
+                    "f1": 0.8888888888888888,
+                    "true_negative_rate": 0.0,
+                    "false_positive_rate": 0.2,
+                    "false_negative_rate": 0.0,
+                    "true_positive_rate": 0.8
+                }
+            },
+            "baseline_model=random": {
+                "metrics": {
+                    "accuracy": 0.6800000000000002,
+                    "precision": 0.8000000000000002,
+                    "recall": 0.8000000000000002,
+                    "f1": 0.8000000000000002,
+                    "true_negative_rate": 0.03999999999999998,
+                    "false_positive_rate": 0.15999999999999998,
+                    "false_negative_rate": 0.15999999999999998,
+                    "true_positive_rate": 0.6400000000000001
+                }
+            }
+        }
+    },
+    "finegrained_fact_verification": {
+        "initial_model=gpt-4-0613": {
+            "baseline_model=always_error": {
+                "total_num": 140,
+                "prediction_error_num": 140,
+                "gold_error_num": 88,
+                "metrics": {
+                    "accuracy": 0.6285714285714286,
+                    "precision": 0.6285714285714286,
+                    "recall": 1.0,
+                    "f1": 0.7719298245614035,
+                    "true_negative_rate": 0.0,
+                    "false_positive_rate": 0.37142857142857144,
+                    "false_negative_rate": 0.0,
+                    "true_positive_rate": 0.6285714285714286
+                }
+            },
+            "baseline_model=random": {
+                "metrics": {
+                    "accuracy": 0.5330612244897959,
+                    "precision": 0.6285714285714286,
+                    "recall": 0.6285714285714286,
+                    "f1": 0.6285714285714286,
+                    "true_negative_rate": 0.1379591836734694,
+                    "false_positive_rate": 0.23346938775510204,
+                    "false_negative_rate": 0.23346938775510204,
+                    "true_positive_rate": 0.3951020408163265
+                }
+            }
+        },
+        "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+            "baseline_model=always_error": {
+                "total_num": 160,
+                "prediction_error_num": 160,
+                "gold_error_num": 129,
+                "metrics": {
+                    "accuracy": 0.80625,
+                    "precision": 0.80625,
+                    "recall": 1.0,
+                    "f1": 0.8927335640138409,
+                    "true_negative_rate": 0.0,
+                    "false_positive_rate": 0.19375,
+                    "false_negative_rate": 0.0,
+                    "true_positive_rate": 0.80625
+                }
+            },
+            "baseline_model=random": {
+                "metrics": {
+                    "accuracy": 0.687578125,
+                    "precision": 0.80625,
+                    "recall": 0.80625,
+                    "f1": 0.8062499999999999,
+                    "true_negative_rate": 0.03753906249999999,
+                    "false_positive_rate": 0.15621093749999998,
+                    "false_negative_rate": 0.15621093749999998,
+                    "true_positive_rate": 0.6500390625
+                }
+            }
+        }
+    },
+    "answerability_classification": {
+        "initial_model=gpt-4-0613": {
+            "baseline_model=always_error": {
+                "total_num": 140,
+                "prediction_error_num": 140,
+                "gold_error_num": 87,
+                "metrics": {
+                    "accuracy": 0.6214285714285714,
+                    "precision": 0.6214285714285714,
+                    "recall": 1.0,
+                    "f1": 0.7665198237885462,
+                    "true_negative_rate": 0.0,
+                    "false_positive_rate": 0.37857142857142856,
+                    "false_negative_rate": 0.0,
+                    "true_positive_rate": 0.6214285714285714
+                }
+            },
+            "baseline_model=random": {
+                "metrics": {
+                    "accuracy": 0.5294897959183673,
+                    "precision": 0.6214285714285714,
+                    "recall": 0.6214285714285714,
+                    "f1": 0.6214285714285714,
+                    "true_negative_rate": 0.14331632653061224,
+                    "false_positive_rate": 0.23525510204081632,
+                    "false_negative_rate": 0.23525510204081632,
+                    "true_positive_rate": 0.3861734693877551
+                }
+            }
+        },
+        "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+            "baseline_model=always_error": {
+                "total_num": 160,
+                "prediction_error_num": 160,
+                "gold_error_num": 130,
+                "metrics": {
+                    "accuracy": 0.8125,
+                    "precision": 0.8125,
+                    "recall": 1.0,
+                    "f1": 0.896551724137931,
+                    "true_negative_rate": 0.0,
+                    "false_positive_rate": 0.1875,
+                    "false_negative_rate": 0.0,
+                    "true_positive_rate": 0.8125
+                }
+            },
+            "baseline_model=random": {
+                "metrics": {
+                    "accuracy": 0.6953125,
+                    "precision": 0.8125,
+                    "recall": 0.8125,
+                    "f1": 0.8125,
+                    "true_negative_rate": 0.03515625,
+                    "false_positive_rate": 0.15234375,
+                    "false_negative_rate": 0.15234375,
+                    "true_positive_rate": 0.66015625
+                }
+            }
+        }
+    }
+}

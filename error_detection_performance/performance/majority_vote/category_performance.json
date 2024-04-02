@@ -1,0 +1,1324 @@
+{
+    "math_word_problem_generation": {
+        "Reasoning Correctness": {
+            "initial_model=gpt-4-0613": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 35,
+                        "prediction_error_num": 10,
+                        "gold_error_num": 35,
+                        "metrics": {
+                            "accuracy": 0.2857142857142857,
+                            "precision": 1.0,
+                            "recall": 0.2857142857142857,
+                            "f1": 0.4444444444444444,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.7142857142857143,
+                            "true_positive_rate": 0.2857142857142857
+                        }
+                    },
+                    "average": {
+                        "total_num": 35,
+                        "gold_error_num": 35,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.2857142857142857,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.2857142857142857,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.4444444444444444,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.7142857142857143,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.2857142857142857,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.2857142857142857,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.2857142857142857,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.4444444444444444,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.7142857142857143,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.2857142857142857,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            },
+            "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 82,
+                        "prediction_error_num": 39,
+                        "gold_error_num": 82,
+                        "metrics": {
+                            "accuracy": 0.47560975609756095,
+                            "precision": 1.0,
+                            "recall": 0.47560975609756095,
+                            "f1": 0.6446280991735537,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.524390243902439,
+                            "true_positive_rate": 0.47560975609756095
+                        }
+                    },
+                    "average": {
+                        "total_num": 82,
+                        "gold_error_num": 82,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.47560975609756095,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.47560975609756095,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.6446280991735537,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.524390243902439,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.47560975609756095,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.47560975609756095,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.47560975609756095,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.6446280991735537,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.524390243902439,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.47560975609756095,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        },
+        "Instruction-Following": {
+            "initial_model=gpt-4-0613": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 80,
+                        "prediction_error_num": 22,
+                        "gold_error_num": 80,
+                        "metrics": {
+                            "accuracy": 0.275,
+                            "precision": 1.0,
+                            "recall": 0.275,
+                            "f1": 0.43137254901960786,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.725,
+                            "true_positive_rate": 0.275
+                        }
+                    },
+                    "average": {
+                        "total_num": 80,
+                        "gold_error_num": 80,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.275,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.275,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.43137254901960786,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.725,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.275,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.275,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.275,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.43137254901960786,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.725,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.275,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            },
+            "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 108,
+                        "prediction_error_num": 49,
+                        "gold_error_num": 108,
+                        "metrics": {
+                            "accuracy": 0.4537037037037037,
+                            "precision": 1.0,
+                            "recall": 0.4537037037037037,
+                            "f1": 0.6242038216560509,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.5462962962962963,
+                            "true_positive_rate": 0.4537037037037037
+                        }
+                    },
+                    "average": {
+                        "total_num": 108,
+                        "gold_error_num": 108,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.4537037037037037,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.4537037037037037,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.6242038216560509,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.5462962962962963,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.4537037037037037,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.4537037037037037,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.4537037037037037,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.6242038216560509,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.5462962962962963,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.4537037037037037,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "finegrained_fact_verification": {
+        "Reasoning Correctness": {
+            "initial_model=gpt-4-0613": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 36,
+                        "prediction_error_num": 12,
+                        "gold_error_num": 36,
+                        "metrics": {
+                            "accuracy": 0.3333333333333333,
+                            "precision": 1.0,
+                            "recall": 0.3333333333333333,
+                            "f1": 0.5,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.6666666666666666,
+                            "true_positive_rate": 0.3333333333333333
+                        }
+                    },
+                    "average": {
+                        "total_num": 36,
+                        "gold_error_num": 36,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.3333333333333333,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.3333333333333333,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.5,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.6666666666666666,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.3333333333333333,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.3333333333333333,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.3333333333333333,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.5,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.6666666666666666,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.3333333333333333,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            },
+            "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 91,
+                        "prediction_error_num": 13,
+                        "gold_error_num": 91,
+                        "metrics": {
+                            "accuracy": 0.14285714285714285,
+                            "precision": 1.0,
+                            "recall": 0.14285714285714285,
+                            "f1": 0.25,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.8571428571428571,
+                            "true_positive_rate": 0.14285714285714285
+                        }
+                    },
+                    "average": {
+                        "total_num": 91,
+                        "gold_error_num": 91,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.14285714285714285,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.14285714285714285,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.25,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.8571428571428571,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.14285714285714285,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.14285714285714285,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.14285714285714285,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.25,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.8571428571428571,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.14285714285714285,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        },
+        "Instruction-Following": {
+            "initial_model=gpt-4-0613": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 8,
+                        "prediction_error_num": 2,
+                        "gold_error_num": 8,
+                        "metrics": {
+                            "accuracy": 0.25,
+                            "precision": 1.0,
+                            "recall": 0.25,
+                            "f1": 0.4,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.75,
+                            "true_positive_rate": 0.25
+                        }
+                    },
+                    "average": {
+                        "total_num": 8,
+                        "gold_error_num": 8,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.25,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.25,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.4,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.75,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.25,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.25,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.25,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.4,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.75,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.25,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            },
+            "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 71,
+                        "prediction_error_num": 10,
+                        "gold_error_num": 71,
+                        "metrics": {
+                            "accuracy": 0.14084507042253522,
+                            "precision": 1.0,
+                            "recall": 0.14084507042253522,
+                            "f1": 0.24691358024691357,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.8591549295774648,
+                            "true_positive_rate": 0.14084507042253522
+                        }
+                    },
+                    "average": {
+                        "total_num": 71,
+                        "gold_error_num": 71,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.14084507042253522,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.14084507042253522,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.24691358024691357,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.8591549295774648,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.14084507042253522,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.14084507042253522,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.14084507042253522,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.24691358024691357,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.8591549295774648,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.14084507042253522,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        },
+        "Context-Faithfulness": {
+            "initial_model=gpt-4-0613": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 63,
+                        "prediction_error_num": 16,
+                        "gold_error_num": 63,
+                        "metrics": {
+                            "accuracy": 0.25396825396825395,
+                            "precision": 1.0,
+                            "recall": 0.25396825396825395,
+                            "f1": 0.4050632911392405,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.746031746031746,
+                            "true_positive_rate": 0.25396825396825395
+                        }
+                    },
+                    "average": {
+                        "total_num": 63,
+                        "gold_error_num": 63,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.25396825396825395,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.25396825396825395,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.4050632911392405,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.746031746031746,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.25396825396825395,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.25396825396825395,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.25396825396825395,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.4050632911392405,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.746031746031746,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.25396825396825395,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            },
+            "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 73,
+                        "prediction_error_num": 9,
+                        "gold_error_num": 73,
+                        "metrics": {
+                            "accuracy": 0.1232876712328767,
+                            "precision": 1.0,
+                            "recall": 0.1232876712328767,
+                            "f1": 0.21951219512195122,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.8767123287671232,
+                            "true_positive_rate": 0.1232876712328767
+                        }
+                    },
+                    "average": {
+                        "total_num": 73,
+                        "gold_error_num": 73,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.1232876712328767,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.1232876712328767,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.21951219512195122,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.8767123287671232,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.1232876712328767,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.1232876712328767,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.1232876712328767,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.21951219512195122,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.8767123287671232,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.1232876712328767,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "answerability_classification": {
+        "Reasoning Correctness": {
+            "initial_model=gpt-4-0613": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 31,
+                        "prediction_error_num": 8,
+                        "gold_error_num": 31,
+                        "metrics": {
+                            "accuracy": 0.25806451612903225,
+                            "precision": 1.0,
+                            "recall": 0.25806451612903225,
+                            "f1": 0.41025641025641024,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.7419354838709677,
+                            "true_positive_rate": 0.25806451612903225
+                        }
+                    },
+                    "average": {
+                        "total_num": 31,
+                        "gold_error_num": 31,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.25806451612903225,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.25806451612903225,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.41025641025641024,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.7419354838709677,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.25806451612903225,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.25806451612903225,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.25806451612903225,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.41025641025641024,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.7419354838709677,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.25806451612903225,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            },
+            "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 77,
+                        "prediction_error_num": 0,
+                        "gold_error_num": 77,
+                        "metrics": {
+                            "accuracy": 0.0,
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 1.0,
+                            "true_positive_rate": 0.0
+                        }
+                    },
+                    "average": {
+                        "total_num": 77,
+                        "gold_error_num": 77,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        },
+        "Parameterized Knowledge": {
+            "initial_model=gpt-4-0613": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 57,
+                        "prediction_error_num": 6,
+                        "gold_error_num": 56,
+                        "metrics": {
+                            "accuracy": 0.12280701754385964,
+                            "precision": 1.0,
+                            "recall": 0.10714285714285714,
+                            "f1": 0.1935483870967742,
+                            "true_negative_rate": 0.017543859649122806,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.8771929824561403,
+                            "true_positive_rate": 0.10526315789473684
+                        }
+                    },
+                    "average": {
+                        "total_num": 57,
+                        "gold_error_num": 56,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.12280701754385964,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.10714285714285714,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.1935483870967742,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.017543859649122806,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.8771929824561403,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.10526315789473684,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.12280701754385964,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.10714285714285714,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.1935483870967742,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.017543859649122806,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.8771929824561403,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.10526315789473684,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            },
+            "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+                "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                    "majority_vote": {
+                        "total_num": 77,
+                        "prediction_error_num": 1,
+                        "gold_error_num": 77,
+                        "metrics": {
+                            "accuracy": 0.012987012987012988,
+                            "precision": 1.0,
+                            "recall": 0.012987012987012988,
+                            "f1": 0.02564102564102564,
+                            "true_negative_rate": 0.0,
+                            "false_positive_rate": 0.0,
+                            "false_negative_rate": 0.987012987012987,
+                            "true_positive_rate": 0.012987012987012988
+                        }
+                    },
+                    "average": {
+                        "total_num": 77,
+                        "gold_error_num": 77,
+                        "metrics": {
+                            "accuracy": {
+                                "average": 0.012987012987012988,
+                                "stdev": 0.0
+                            },
+                            "precision": {
+                                "average": 1.0,
+                                "stdev": 0.0
+                            },
+                            "recall": {
+                                "average": 0.012987012987012988,
+                                "stdev": 0.0
+                            },
+                            "f1": {
+                                "average": 0.02564102564102564,
+                                "stdev": 0.0
+                            },
+                            "true_negative_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_positive_rate": {
+                                "average": 0.0,
+                                "stdev": 0.0
+                            },
+                            "false_negative_rate": {
+                                "average": 0.987012987012987,
+                                "stdev": 0.0
+                            },
+                            "true_positive_rate": {
+                                "average": 0.012987012987012988,
+                                "stdev": 0.0
+                            }
+                        }
+                    }
+                },
+                "average": {
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.012987012987012988,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.012987012987012988,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.02564102564102564,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.987012987012987,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.012987012987012988,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

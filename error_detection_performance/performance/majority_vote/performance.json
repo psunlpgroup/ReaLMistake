@@ -1,0 +1,436 @@
+{
+    "math_word_problem_generation": {
+        "initial_model=gpt-4-0613": {
+            "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                "prompt=majority_vote": {
+                    "total_num": 140,
+                    "prediction_error_num": 29,
+                    "gold_error_num": 87,
+                    "metrics": {
+                        "accuracy": 0.4857142857142857,
+                        "precision": 0.7586206896551724,
+                        "recall": 0.25287356321839083,
+                        "f1": 0.3793103448275862,
+                        "true_negative_rate": 0.32857142857142857,
+                        "false_positive_rate": 0.05,
+                        "false_negative_rate": 0.4642857142857143,
+                        "true_positive_rate": 0.15714285714285714
+                    }
+                },
+                "average": {
+                    "total_num": 140,
+                    "gold_error_num": 87,
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.4857142857142857,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 0.7586206896551724,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.25287356321839083,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.3793103448275862,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.32857142857142857,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.05,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.4642857142857143,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.15714285714285714,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        },
+        "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+            "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                "prompt=majority_vote": {
+                    "total_num": 160,
+                    "prediction_error_num": 58,
+                    "gold_error_num": 128,
+                    "metrics": {
+                        "accuracy": 0.5125,
+                        "precision": 0.9310344827586207,
+                        "recall": 0.421875,
+                        "f1": 0.5806451612903226,
+                        "true_negative_rate": 0.175,
+                        "false_positive_rate": 0.025,
+                        "false_negative_rate": 0.4625,
+                        "true_positive_rate": 0.3375
+                    }
+                },
+                "average": {
+                    "total_num": 160,
+                    "gold_error_num": 128,
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.5125,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 0.9310344827586207,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.421875,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.5806451612903226,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.175,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.025,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.4625,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.3375,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "finegrained_fact_verification": {
+        "initial_model=gpt-4-0613": {
+            "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                "prompt=majority_vote": {
+                    "total_num": 140,
+                    "prediction_error_num": 40,
+                    "gold_error_num": 88,
+                    "metrics": {
+                        "accuracy": 0.44285714285714284,
+                        "precision": 0.625,
+                        "recall": 0.2840909090909091,
+                        "f1": 0.390625,
+                        "true_negative_rate": 0.2642857142857143,
+                        "false_positive_rate": 0.10714285714285714,
+                        "false_negative_rate": 0.45,
+                        "true_positive_rate": 0.17857142857142858
+                    }
+                },
+                "average": {
+                    "total_num": 140,
+                    "gold_error_num": 88,
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.44285714285714284,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 0.625,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.2840909090909091,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.390625,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.2642857142857143,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.10714285714285714,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.45,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.17857142857142858,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        },
+        "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+            "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                "prompt=majority_vote": {
+                    "total_num": 160,
+                    "prediction_error_num": 16,
+                    "gold_error_num": 129,
+                    "metrics": {
+                        "accuracy": 0.29375,
+                        "precision": 1.0,
+                        "recall": 0.12403100775193798,
+                        "f1": 0.2206896551724138,
+                        "true_negative_rate": 0.19375,
+                        "false_positive_rate": 0.0,
+                        "false_negative_rate": 0.70625,
+                        "true_positive_rate": 0.1
+                    }
+                },
+                "average": {
+                    "total_num": 160,
+                    "gold_error_num": 129,
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.29375,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 1.0,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.12403100775193798,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.2206896551724138,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.19375,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.70625,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.1,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "answerability_classification": {
+        "initial_model=gpt-4-0613": {
+            "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                "prompt=majority_vote": {
+                    "total_num": 140,
+                    "prediction_error_num": 25,
+                    "gold_error_num": 87,
+                    "metrics": {
+                        "accuracy": 0.4142857142857143,
+                        "precision": 0.6,
+                        "recall": 0.1724137931034483,
+                        "f1": 0.26785714285714285,
+                        "true_negative_rate": 0.30714285714285716,
+                        "false_positive_rate": 0.07142857142857142,
+                        "false_negative_rate": 0.5142857142857142,
+                        "true_positive_rate": 0.10714285714285714
+                    }
+                },
+                "average": {
+                    "total_num": 140,
+                    "gold_error_num": 87,
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.4142857142857143,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 0.6,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.1724137931034483,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.26785714285714285,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.30714285714285716,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.07142857142857142,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.5142857142857142,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.10714285714285714,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        },
+        "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+            "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                "prompt=majority_vote": {
+                    "total_num": 160,
+                    "prediction_error_num": 3,
+                    "gold_error_num": 130,
+                    "metrics": {
+                        "accuracy": 0.18125,
+                        "precision": 0.3333333333333333,
+                        "recall": 0.007692307692307693,
+                        "f1": 0.015037593984962405,
+                        "true_negative_rate": 0.175,
+                        "false_positive_rate": 0.0125,
+                        "false_negative_rate": 0.80625,
+                        "true_positive_rate": 0.00625
+                    }
+                },
+                "average": {
+                    "total_num": 160,
+                    "gold_error_num": 130,
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.18125,
+                            "stdev": 0.0
+                        },
+                        "precision": {
+                            "average": 0.3333333333333333,
+                            "stdev": 0.0
+                        },
+                        "recall": {
+                            "average": 0.007692307692307693,
+                            "stdev": 0.0
+                        },
+                        "f1": {
+                            "average": 0.015037593984962405,
+                            "stdev": 0.0
+                        },
+                        "true_negative_rate": {
+                            "average": 0.175,
+                            "stdev": 0.0
+                        },
+                        "false_positive_rate": {
+                            "average": 0.0125,
+                            "stdev": 0.0
+                        },
+                        "false_negative_rate": {
+                            "average": 0.80625,
+                            "stdev": 0.0
+                        },
+                        "true_positive_rate": {
+                            "average": 0.00625,
+                            "stdev": 0.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "average": {
+        "initial_model=gpt-4-0613": {
+            "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                "average": {
+                    "total_num": 420,
+                    "gold_error_num": 262,
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.44761904761904764,
+                            "stdev": 0.029354352395090353
+                        },
+                        "precision": {
+                            "average": 0.661206896551724,
+                            "stdev": 0.06963397310269878
+                        },
+                        "recall": {
+                            "average": 0.2364594218042494,
+                            "stdev": 0.047046165891187985
+                        },
+                        "f1": {
+                            "average": 0.34593082922824303,
+                            "stdev": 0.055399342553844697
+                        },
+                        "true_negative_rate": {
+                            "average": 0.3,
+                            "stdev": 0.02672612419124244
+                        },
+                        "false_positive_rate": {
+                            "average": 0.07619047619047618,
+                            "stdev": 0.02357022603955158
+                        },
+                        "false_negative_rate": {
+                            "average": 0.4761904761904762,
+                            "stdev": 0.027561516435214792
+                        },
+                        "true_positive_rate": {
+                            "average": 0.14761904761904762,
+                            "stdev": 0.02992810735708699
+                        }
+                    }
+                }
+            }
+        },
+        "initial_model=meta-llama/Llama-2-70b-chat-hf": {
+            "baseline_model=Llama-2-70b-chat-hf__Mixtral-8x7B-Instruct-v0.1__Qwen1.5-72B-Chat": {
+                "average": {
+                    "total_num": 480,
+                    "gold_error_num": 387,
+                    "metrics": {
+                        "accuracy": {
+                            "average": 0.32916666666666666,
+                            "stdev": 0.13753156203415837
+                        },
+                        "precision": {
+                            "average": 0.7547892720306514,
+                            "stdev": 0.29934137907470665
+                        },
+                        "recall": {
+                            "average": 0.18453277181474856,
+                            "stdev": 0.17441745563034705
+                        },
+                        "f1": {
+                            "average": 0.2721241368158996,
+                            "stdev": 0.2337550134574265
+                        },
+                        "true_negative_rate": {
+                            "average": 0.18125,
+                            "stdev": 0.008838834764831853
+                        },
+                        "false_positive_rate": {
+                            "average": 0.012500000000000002,
+                            "stdev": 0.010206207261596576
+                        },
+                        "false_negative_rate": {
+                            "average": 0.6583333333333333,
+                            "stdev": 0.14436763449225345
+                        },
+                        "true_positive_rate": {
+                            "average": 0.14791666666666667,
+                            "stdev": 0.1394122085360134
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

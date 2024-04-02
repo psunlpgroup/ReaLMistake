@@ -1,0 +1,7 @@
+ initial model & dataset & Llama-2-70b-chat-hf & Mixtral-8x7B-Instruct-v0.1 & Qwen1.5-72B-Chat \\
+ & \scalebox{0.9}[1]{MathGen} & 73.0 & 75.5 & \cellcolor[RGB]{240,230,140}{82.9} & 75.9 \\
+ & \scalebox{0.9}[1]{FgFactV} & 62.4 & 61.3 & \cellcolor[RGB]{240,230,140}{67.1} & 62.5 \\
+ & \scalebox{0.9}[1]{AnsCls} & \cellcolor[RGB]{240,230,140}{65.2} & \cellcolor[RGB]{240,230,140}{60.9} & 55.4 & 60.0 \\
+ & \scalebox{0.9}[1]{MathGen} & 88.6 & 89.0 & \cellcolor[RGB]{240,230,140}{94.5} & 93.1 \\
+ & \scalebox{0.9}[1]{FgFactV} & 82.4 & 96.3 & 73.7 & 100.0 \\
+ & \scalebox{0.9}[1]{AnsCls} & \cellcolor[RGB]{240,230,140}{77.3} & \cellcolor[RGB]{240,230,140}{86.3} & \cellcolor[RGB]{240,230,140}{70.5} & 33.3 \\

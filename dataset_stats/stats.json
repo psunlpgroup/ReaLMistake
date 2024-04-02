@@ -1,0 +1,26 @@
+{
+    "math_word_problem_generation": {
+        "gpt-4-0613": {
+            "error_percentage": 62.142857142857146
+        },
+        "meta-llama/Llama-2-70b-chat-hf": {
+            "error_percentage": 80.0
+        }
+    },
+    "finegrained_fact_verification": {
+        "gpt-4-0613": {
+            "error_percentage": 62.857142857142854
+        },
+        "meta-llama/Llama-2-70b-chat-hf": {
+            "error_percentage": 80.625
+        }
+    },
+    "answerability_classification": {
+        "gpt-4-0613": {
+            "error_percentage": 62.142857142857146
+        },
+        "meta-llama/Llama-2-70b-chat-hf": {
+            "error_percentage": 81.25
+        }
+    }
+}

@@ -1,0 +1,17 @@
+name: realmistake
+channels:
+  - defaults
+dependencies:
+  - python=3.9.18=h955ad1f_0
+  - pip=23.2.1=py39h06a4308_0
+  - pip:
+    - datasets-2.18.0
+    - scipy=1.12.0
+    - matplotlib=3.8.3
+    - scikit-learn=1.4.1.post1
+    - typed-argument-parser=1.9.0
+    - tiktoken=0.5.2
+    - plotly=5.20.0
+    - kaleido=0.2.1
+    - adjustText=1.1.1
+    - git+ssh://git@github.com/ryokamoi/easy_io@0.2.1

@@ -1,0 +1,7 @@
+ initial model & dataset & gemma-7b-it & Llama-2-13b-chat-hf & Llama-2-70b-chat-hf & Mistral-7B-Instruct-v0.1 & Mixtral-8x7B-Instruct-v0.1 & Qwen1.5-14B-Chat & Qwen1.5-72B-Chat & gpt-3.5-turbo-0125 & gemini-1.0-pro-001 & claude-3-opus-20240229 & gpt-4-0613 & gpt-4-0125-preview & random & human \\
+ & \scalebox{0.9}[1]{MathGen} & \cellcolor[RGB]{211,211,211}{61.9} & 65.5 & 67.7 & \cellcolor[RGB]{211,211,211}{20.0} & 80.4 & 83.3 & 78.6 & 70.4 & 75.0 & \textbf{100.0} & 95.8 & 87.1 & 62.1 & 100.0 \\
+ & \scalebox{0.9}[1]{FgFactV} & \cellcolor[RGB]{211,211,211}{56.2} & \cellcolor[RGB]{211,211,211}{56.8} & 64.0 & \cellcolor[RGB]{211,211,211}{55.9} & 72.2 & 63.9 & 73.9 & \cellcolor[RGB]{211,211,211}{59.7} & 63.6 & 72.4 & \textbf{100.0} & 86.7 & 62.9 & 95.5 \\
+ & \scalebox{0.9}[1]{AnsCls} & 64.4 & 62.8 & 62.9 & \cellcolor[RGB]{211,211,211}{59.0} & \cellcolor[RGB]{211,211,211}{59.6} & 64.4 & 71.4 & 80.6 & 71.4 & 79.2 & 80.0 & \textbf{84.6} & 62.1 & 95.0 \\
+ & \scalebox{0.9}[1]{MathGen} & 83.2 & \cellcolor[RGB]{211,211,211}{76.5} & 92.0 & \cellcolor[RGB]{211,211,211}{60.0} & 86.7 & 96.4 & 93.1 & 87.0 & 93.9 & \textbf{97.7} & 97.2 & 94.1 & 80.0 & 100.0 \\
+ & \scalebox{0.9}[1]{FgFactV} & 87.5 & 82.5 & 83.5 & \cellcolor[RGB]{211,211,211}{76.6} & 96.4 & 84.5 & \textbf{100.0} & 96.0 & 85.7 & 100.0 & 90.4 & 93.4 & 80.6 & 100.0 \\
+ & \scalebox{0.9}[1]{AnsCls} & \cellcolor[RGB]{211,211,211}{78.3} & 82.5 & 85.3 & \cellcolor[RGB]{211,211,211}{80.5} & 81.6 & 83.3 & \textbf{100.0} & 100.0 & 100.0 & 100.0 & 97.0 & 95.9 & 81.2 & 100.0 \\

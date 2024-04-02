@@ -1,0 +1,10 @@
+gpt-4-0613
+math_word_problem_generation   &   140 &   252 &   151 & 62.1 \\
+finegrained_fact_verification  &   140 &   523 &    83 & 62.9 \\
+answerability_classification   &   140 &   119 &    75 & 62.1 \\
+
+meta-llama/Llama-2-70b-chat-hf
+math_word_problem_generation   &   160 &   235 &   163 & 80.0 \\
+finegrained_fact_verification  &   160 &   511 &   168 & 80.6 \\
+answerability_classification   &   160 &   119 &    96 & 81.2 \\
+
