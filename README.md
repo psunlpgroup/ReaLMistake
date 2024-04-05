@@ -1,6 +1,6 @@
 ## ReaLMistake Error Detection Benchmark
 
-This repository includes a benchmark and code for the paper "Evaluating LLMs at Detecting Errors in LLM Responses".
+This repository includes a benchmark and code for the paper "[Evaluating LLMs at Detecting Errors in LLM Responses](https://arxiv.org/abs/2404.03602)".
 
 ReaLMistake is a benchmark for evaluating binary error detection methods that detect errors in LLM responses. This benchmark includes natural errors made by GPT-4 and Llama 2 70B on three tasks (math word problem generation, fine-grained fact verification, and answerability classification). For each pair of input and response from LLM, this benchmark provides the following annotations by human experts:
 
@@ -18,6 +18,7 @@ ReaLMistake is a benchmark for evaluating binary error detection methods that de
       Sujeeth Reddy Vummanthala and Salika Dave and Shaobo Qin and
       Arman Cohan and Wenpeng Yin and Rui Zhang},
     year = {2024},
+    journal = {arXiv preprint arXiv:2404.03602},
 }
 ```
 
